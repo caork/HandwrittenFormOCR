@@ -20,7 +20,7 @@ as well as [Tesseract](https://github.com/tesseract-ocr/tesseract).
 
 Then, in a python terminal, use the command line:
 ```sh
-$ python image2csv.py --image path/to/image
+$ python3 main.py -i images/test.png
 ```
 
 There are a few optionnal arguments: 
