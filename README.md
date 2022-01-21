@@ -31,7 +31,7 @@ There are a few optionnal arguments:
 
 and one can find their usage using the command line:
 ```sh
-$ python image2csv.py --help
+$ python main.py --help
 ```
 
 By default, the program will try to detect a grid automatically. This detection uses OpenCV's Hough transformation and Canny detection, so the user can tweak a few parameters for better processing in the grid_detector.py file.
